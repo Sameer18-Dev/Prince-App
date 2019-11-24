@@ -4,7 +4,7 @@
 
 ## Basic Overview
 
-Android authentication form based on Firebase with few features, custom animation and design. 
+This App was developed for Prince Company as a prototype, this App includes android authentication form based on Firebase with few features, custom animation and design. 
 
 ## Interface Preview 
 
