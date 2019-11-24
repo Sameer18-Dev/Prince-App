@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context="com.example.chmarax.logregform.SalesOrderForm">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/ivRegLogo"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginBottom="55dp"
+                android:layout_marginTop="18dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
+
+
+
+            <ImageView
+                android:id="@+id/ivJoinUs"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/joinus_text02" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/BookingDate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="BOOKING DATE"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+            <!--
+                            android:drawableLeft="@drawable/icon_mail"
+                            android:drawablePadding="10dp"
+                            android:drawableStart="@drawable/icon_mail"
+            -->
+
+            <AutoCompleteTextView
+                android:id="@+id/FullName"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="FULL NAME OF APPLICANT"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/FatherHusbandName"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="FATHER'S/HUSBAND NAME"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/FinancialInstitute"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="NAME OF FINANCIAL INSTITUTE"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Dealer"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="NAME OF DEALER"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Address"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="ADDRESS OF APPLICANT"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/City"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="CITY"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/Province"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="PROVINCE"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Cnic"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="CNIC NO."
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/Ntn"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="NTN NO."
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/Strn"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="STRN NO."
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Cell"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="CELL NO."
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Telephone"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="TELEPHONE NO."
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Vehicle"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="VEHICLE NAME"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Model"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="MODEL"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Color"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="COLOR"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/AdvanceAmount"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="ADVANCE PAYMENT AMOUNT"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/PayChkNo"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="PAYORDER/CHECK NO."
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/SlipNo"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="DEPOSIT SLIP NO."
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Bank"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="BANK DETAILS"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Payment"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="TOTAL PAYMENT"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/Balance"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="BALANCE AMOUNT"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/DeliveryDate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rect"
+                android:drawablePadding="10dp"
+                android:hint="DELIVERY DATE"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACCEPT TERMS AND CONDITIONS"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+                android:textColor="@color/gray"
+                />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnsignup_gradient"
+                android:text="Submit"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
