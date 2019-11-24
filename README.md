@@ -9,9 +9,9 @@ Android authentication form based on Firebase with few features, custom animatio
 ## Interface Preview 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ChmaraX/logregform-android/master/Preview/3.jpeg" width="210"/>
-  <img src="https://raw.githubusercontent.com/ChmaraX/logregform-android/master/Preview/4.jpeg" width="210"/>
-  <img src="https://raw.githubusercontent.com/ChmaraX/logregform-android/master/Preview/1.jpeg" width="210"/>
+  <img src="https://github.com/Sameer18-Dev/Prince-App/blob/master/Preview/WhatsApp%20Image%202019-11-24%20at%206.45.48%20PM.jpeg" width="210"/>
+  <img src="https://github.com/Sameer18-Dev/Prince-App/blob/master/Preview/WhatsApp%20Image%202019-11-24%20at%206.45.48%20PM%20(1).jpeg" width="210"/>
+  <img src="https://github.com/Sameer18-Dev/Prince-App/blob/master/Preview/WhatsApp%20Image%202019-11-24%20at%206.45.47%20PM.jpeg" width="210"/>
   <img src="https://raw.githubusercontent.com/ChmaraX/logregform-android/master/Preview/2.jpeg" width="210"/>
 </p>
 
